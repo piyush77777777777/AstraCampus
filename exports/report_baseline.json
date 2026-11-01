@@ -1,0 +1,28 @@
+{
+  "dataset_id": "cit-public-v1",
+  "schedule_dataset_id": "cit-public-v1",
+  "team": "AstraCampus",
+  "soft_penalties": {
+    "S1": 20,
+    "S2": 63,
+    "S3": 60,
+    "S4": 132,
+    "S5": 48,
+    "S6": 18
+  },
+  "soft_total": 341,
+  "bookings": {
+    "booking_score": 62.0,
+    "booking_score_max_if_all_approved": 70,
+    "approved": 20,
+    "alternatives": 2,
+    "rejected": 3,
+    "session_overrides": 0,
+    "priority_inversions": []
+  },
+  "exam_soft_penalty": 0,
+  "hard_violations": [],
+  "hard_violation_count": 0,
+  "hard_by_rule": {},
+  "warnings": []
+}

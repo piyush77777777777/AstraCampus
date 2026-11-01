@@ -1,0 +1,26 @@
+{
+  "dataset_id": "cit-public-v1",
+  "schedule_dataset_id": "cit-public-v1",
+  "team": "AstraCampus",
+  "soft_penalties": {
+    "S1": 20,
+    "S2": 63,
+    "S3": 60,
+    "S4": 132,
+    "S5": 48,
+    "S6": 18
+  },
+  "soft_total": 341,
+  "stability": {
+    "sessions_moved": 1,
+    "time_changed": 1,
+    "room_only_changed": 0,
+    "moved_ids": [
+      "CS101-C-L2"
+    ]
+  },
+  "hard_violations": [],
+  "hard_violation_count": 0,
+  "hard_by_rule": {},
+  "warnings": []
+}

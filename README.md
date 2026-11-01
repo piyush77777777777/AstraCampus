@@ -1,10 +1,19 @@
+<div align="center">
+
 # 🏛 AstraCampus — Chilika Institute of Technology (CIT)
 ### Autonomous Campus Scheduling, Spectra Fest Venue Management & Dynamic Rescheduling Engine
 
+![AstraCampus Classical Campus Banner](assets/banner.jpg)
+
+[![Live Web Application](https://img.shields.io/badge/Live%20Web-AstraCampus%20App-d97706?style=for-the-badge&logo=googlechrome&logoColor=white)](https://piyush77777777777.github.io/AstraCampus/)
 [![Official Validator](https://img.shields.io/badge/Official%20Validator-0%20Hard%20Violations-10b981?style=for-the-badge&logo=python)](exports/schedule.json)
 [![Booking Score](https://img.shields.io/badge/Spectra%20Bookings-62.0%2F64.0%20Optimal-8b5cf6?style=for-the-badge)](exports/schedule.json)
 [![Rescheduling Stability](https://img.shields.io/badge/Disruption%20Recovery-1%20Session%20Moved-f59e0b?style=for-the-badge)](exports/schedule_after.json)
 [![Exam Capacity](https://img.shields.io/badge/Midsem%20Exams-41%2F41%20Clash--Free-3b82f6?style=for-the-badge)](exports/schedule.json)
+
+### 🚀 **[Explore Live Web Application](https://piyush77777777777.github.io/AstraCampus/)**
+
+</div>
 
 ---
 

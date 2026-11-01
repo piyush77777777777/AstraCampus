@@ -311,26 +311,28 @@ def get_audit_log():
 
 @app.get("/api/export/schedule")
 def download_schedule():
-    export_path = os.path.join(os.path.dirname(__file__), "..", "..", "exports", "schedule.json")
+    export_path = os.path.join(os.path.dirname(__file__), "..", "exports", "schedule.json")
     if os.path.exists(export_path):
         return FileResponse(export_path, media_type="application/json", filename="schedule.json")
     return dm.current_schedule
 
 @app.get("/api/download/source-code")
 def download_source_code():
-    zip_path = os.path.join(os.path.dirname(__file__), "..", "..", "exports", "AstraCampus_SourceCode.zip")
+    zip_path = os.path.join(os.path.dirname(__file__), "..", "exports", "AstraCampus_SourceCode.zip")
     if os.path.exists(zip_path):
         return FileResponse(zip_path, media_type="application/zip", filename="AstraCampus_SourceCode.zip")
     raise HTTPException(status_code=404, detail="Source code archive not found.")
 
 @app.get("/api/download/standalone")
 def download_standalone_script():
-    script_path = os.path.join(os.path.dirname(__file__), "..", "..", "astracampus_standalone.py")
+    script_path = os.path.join(os.path.dirname(__file__), "..", "astracampus_standalone.py")
     if os.path.exists(script_path):
         return FileResponse(script_path, media_type="text/x-python", filename="astracampus_standalone.py")
     raise HTTPException(status_code=404, detail="Standalone script not found.")
 
 # Static frontend mount if dist directory exists
-dist_dir = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist")
+dist_dir = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+if not os.path.exists(dist_dir):
+    dist_dir = os.path.join(os.path.dirname(__file__), "frontend", "dist")
 if os.path.exists(dist_dir):
     app.mount("/", StaticFiles(directory=dist_dir, html=True), name="static")

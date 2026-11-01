@@ -17,18 +17,19 @@ import ScheduleBattleMode from './components/ScheduleBattleMode';
 import EmergencyModeModal from './components/EmergencyModeModal';
 import ExplainModal from './components/ExplainModal';
 import DemoTourModal from './components/DemoTourModal';
+import fallbackData from './fallbackData.json';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('command'); // 'command', 'timetable', 'digital_twin', 'reschedule', 'fest', 'exams', 'analytics', 'battle'
   const [activeRole, setActiveRole] = useState('admin'); // 'admin', 'department_coordinator', 'faculty', 'club'
   
-  // Data states
-  const [status, setStatus] = useState({});
-  const [allData, setAllData] = useState({});
-  const [schedule, setSchedule] = useState({});
-  const [bookingsData, setBookingsData] = useState({});
-  const [examsData, setExamsData] = useState({});
-  const [usersData, setUsersData] = useState([]);
+  // Data states initialized with bundled dataset
+  const [status, setStatus] = useState(fallbackData.status || {});
+  const [allData, setAllData] = useState(fallbackData.allData || {});
+  const [schedule, setSchedule] = useState(fallbackData.schedule || {});
+  const [bookingsData, setBookingsData] = useState(fallbackData.bookingsData || {});
+  const [examsData, setExamsData] = useState(fallbackData.examsData || {});
+  const [usersData, setUsersData] = useState(fallbackData.usersData || []);
   
   // Modals state
   const [isCopilotOpen, setIsCopilotOpen] = useState(false);
@@ -41,21 +42,21 @@ export default function App() {
   const fetchInitialData = async () => {
     try {
       const [statusRes, dataRes, schedRes, bookRes, examRes, userRes] = await Promise.all([
-        fetch('/api/status').then(r => r.json()),
-        fetch('/api/data/all').then(r => r.json()),
-        fetch('/api/schedule').then(r => r.json()),
-        fetch('/api/fest/bookings').then(r => r.json()),
-        fetch('/api/exams').then(r => r.json()),
-        fetch('/api/users').then(r => r.json())
+        fetch('/api/status').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch('/api/data/all').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch('/api/schedule').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch('/api/fest/bookings').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch('/api/exams').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch('/api/users').then(r => r.ok ? r.json() : null).catch(() => null)
       ]);
-      setStatus(statusRes);
-      setAllData(dataRes);
-      setSchedule(schedRes);
-      setBookingsData(bookRes);
-      setExamsData(examRes);
-      setUsersData(userRes.users || []);
+      if (statusRes) setStatus(statusRes);
+      if (dataRes) setAllData(dataRes);
+      if (schedRes) setSchedule(schedRes);
+      if (bookRes) setBookingsData(bookRes);
+      if (examRes) setExamsData(examRes);
+      if (userRes && userRes.users) setUsersData(userRes.users);
     } catch (err) {
-      console.error("Error loading AstraCampus data:", err);
+      console.warn("Operating in standalone static mode with bundled CIT dataset:", err);
     }
   };
 

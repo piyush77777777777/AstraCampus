@@ -1,0 +1,23 @@
+{
+  "name": "AstraCampus — Chilika Institution of Technology",
+  "short_name": "AstraCampus",
+  "description": "AI-Assisted Campus Operating System with Venue Scheduling, Timetabling, and Multi-Portal Management for CIT.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "permissions": [
+    "notifications",
+    "clipboard-read",
+    "clipboard-write",
+    "geolocation"
+  ],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6L12 2z'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

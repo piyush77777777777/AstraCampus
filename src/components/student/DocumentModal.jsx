@@ -22,7 +22,7 @@ export default function DocumentModal({ isOpen, onClose }) {
       const newDoc = {
         refNo: `CIT/CERT/2026/${Math.floor(1000 + Math.random() * 9000)}`,
         issueDate: new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'long', year: 'numeric' }),
-        studentName: currentPersona?.name || 'Piyush Mohapatra',
+        studentName: currentPersona?.name || 'Piyush Kumar Dey',
         regNo: currentPersona?.regNo || '2201106145',
         branch: currentPersona?.branch || 'Computer Science & Engineering',
         year: currentPersona?.year || '3rd Year (6th Sem)',

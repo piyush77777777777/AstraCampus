@@ -474,7 +474,7 @@ export default function UnifiedPortalHub({ activeTab, setActiveTab }) {
               {[
                 { roll: '2201106101', name: 'Aarav Sharma', attendancePct: 88 },
                 { roll: '2201106120', name: 'Ishita Panda', attendancePct: 92 },
-                { roll: '2201106145', name: 'Piyush Mohapatra', attendancePct: 84.5 },
+                { roll: '2201106145', name: 'Piyush Kumar Dey', attendancePct: 84.5 },
                 { roll: '2201106155', name: 'Rohit Behera', attendancePct: 72 }
               ].map(st => (
                 <div key={st.roll} className="py-3 flex items-center justify-between">

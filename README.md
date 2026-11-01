@@ -4,7 +4,9 @@
 
 ![AstraCampus Banner](https://img.shields.io/badge/AstraCampus-Chilika%20Institution%20of%20Technology-2563eb?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAybDIuNCA3LjRIMjJsLTYuMiA0LjUgMi40IDcuNEwxMiAxNi44IDUuOCAyMS4zbDIuNC03LjRMMiA5LjRoNy42TDEyIDJ6Ii8+PC9zdmc+)
 
-**AI-Powered Campus Operating System | BPUT Hackathon 2026**
+**Autonomous Multi-Portal Campus Operating System & Smart Scheduling Engine**
+
+**Team: BUG FINDERS | Team Leader: Piyush Kumar Dey**
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-22c55e?style=for-the-badge)](https://piyush77777777777.github.io/AstraCampus/)
 [![Validator Score](https://img.shields.io/badge/Scheduling-25%2F25_Marks-22c55e?style=for-the-badge&logo=checkmarx)](/)
@@ -48,7 +50,7 @@
 
 ```
 ┌──────────────────────────────────────┐
-│ Piyush Mohapatra | Roll: 22CSE045    │
+│ Piyush Kumar Dey | Roll: 22CSE045    │
 │ CGPA: 8.74 | Attendance: 84.5%       │
 │                                      │
 │ 📚 Timetable  💰 Fees  📋 Records   │
@@ -377,7 +379,7 @@ AstraCampus/
 ### For Judges — Demo Flow
 
 1. **Open** http://localhost:5173
-2. **Select Student Portal** → see Piyush Mohapatra's dashboard (CGPA 8.74, Attendance 84.5%)
+2. **Select Student Portal** → see Piyush Kumar Dey's dashboard (CGPA 8.74, Attendance 84.5%)
 3. **Go to Leave Requests** → Submit a new gate pass → status shows PENDING
 4. **Switch to Admin Portal** → See the gate pass appear in **Approval Center** (amber badge)
 5. **Type a remark** and click **Approve** → toast notification fires
@@ -391,13 +393,13 @@ AstraCampus/
 
 ---
 
-## 🧑‍💻 Team
+## 🧑‍💻 Team: BUG FINDERS
 
-**Chilika Institution of Technology — BPUT Hackathon 2026**
+**Chilika Institution of Technology (CIT)**
 
 | Name | Role |
 |------|------|
-| Piyush Mohapatra | Lead Developer |
+| **Piyush Kumar Dey** | **Team Leader & Full-Stack Lead Engineer** |
 
 ---
 
@@ -411,6 +413,6 @@ MIT License — Free to use and modify.
 
 **⭐ Star this repo if it helped you!**
 
-Built with ❤️ for BPUT Hackathon 2026 by Team CIT
+Built with ❤️ by **Team BUG FINDERS** (Lead: **Piyush Kumar Dey**) — Chilika Institution of Technology (CIT)
 
 </div>

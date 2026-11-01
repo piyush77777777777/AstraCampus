@@ -207,7 +207,7 @@ export default function AdoptionRoadmap() {
                     <tbody className="divide-y divide-slate-100 bg-white">
                       <tr>
                         <td className="p-2 text-blue-600">2201106145</td>
-                        <td className="p-2">Piyush Mohapatra</td>
+                        <td className="p-2">Piyush Kumar Dey</td>
                         <td className="p-2">CSE</td>
                         <td className="p-2">3rd / 6th</td>
                         <td className="p-2">+919876543210</td>

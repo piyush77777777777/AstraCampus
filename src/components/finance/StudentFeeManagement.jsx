@@ -42,7 +42,7 @@ export default function StudentFeeManagement({ initialView = 'student' }) {
   // Counter / Offline Collection Form
   const [offlineForm, setOfflineForm] = useState({
     studentId: '2201106145',
-    studentName: 'Piyush Mohapatra',
+    studentName: 'Piyush Kumar Dey',
     invoiceNo: 'INV-2026-08493',
     amount: '8000',
     mode: 'OFFLINE_CASH',

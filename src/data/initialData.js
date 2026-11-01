@@ -3,7 +3,7 @@
 export const initialPersonas = {
   student: {
     id: "STU-2022-CSE-045",
-    name: "Piyush Mohapatra",
+    name: "Piyush Kumar Dey",
     role: "student",
     regNo: "2201106145",
     branch: "Computer Science & Engineering",
@@ -80,15 +80,15 @@ export const initialPersonas = {
   },
   parent: {
     id: "PAR-2022-CSE-045",
-    name: "Mr. Ramesh Mohapatra",
+    name: "Mr. Ramesh Dey",
     role: "parent",
     title: "Parent / Guardian",
-    wardName: "Piyush Mohapatra",
+    wardName: "Piyush Kumar Dey",
     wardRegNo: "2201106145",
     wardRoom: "B-304",
     wardBranch: "Computer Science & Engineering",
     phone: "+91 94370 12345",
-    email: "ramesh.mohapatra@gmail.com",
+    email: "ramesh.dey@gmail.com",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80"
   },
   principal: {
@@ -157,7 +157,7 @@ export const initialGatePasses = [
   {
     id: "GP-2026-8891",
     studentId: "STU-2022-CSE-045",
-    studentName: "Piyush Mohapatra",
+    studentName: "Piyush Kumar Dey",
     regNo: "2201106145",
     room: "B-304",
     passType: "Day Outing",
@@ -224,7 +224,7 @@ export const initialComplaints = [
     category: "Plumbing",
     location: "Aryabhatta Hall - Block B, 3rd Floor Washroom",
     urgency: "HIGH",
-    reportedBy: "Piyush Mohapatra (B-304)",
+    reportedBy: "Piyush Kumar Dey (B-304)",
     studentId: "STU-2022-CSE-045",
     reportedDaysAgo: 9,
     reportedDate: "2026-09-10",
@@ -270,7 +270,7 @@ export const initialComplaints = [
     category: "Electrical",
     location: "Aryabhatta Hall - Room B-304",
     urgency: "HIGH",
-    reportedBy: "Piyush Mohapatra (B-304)",
+    reportedBy: "Piyush Kumar Dey (B-304)",
     studentId: "STU-2022-CSE-045",
     reportedDaysAgo: 0,
     reportedDate: "2026-09-19",
@@ -442,7 +442,7 @@ export const initialAuditLogs = [
     timestamp: "Today, 14:15:32",
     actor: "Dr. S. K. Nayak (Chief Warden)",
     action: "APPROVED_GATE_PASS",
-    details: "Approved Day Outing for Piyush Mohapatra (GP-2026-8891). SMS alert dispatched to +91 94370 12345.",
+    details: "Approved Day Outing for Piyush Kumar Dey (GP-2026-8891). SMS alert dispatched to +91 94370 12345.",
     badgeColor: "emerald"
   },
   {
@@ -551,7 +551,7 @@ export const initialNotifications = [
   {
     id: "NOTIF-2026-002",
     title: "Gate Pass Approval Requested",
-    message: "Student Piyush Mohapatra (Reg: 2201106145) requested Day Outing to City Center.",
+    message: "Student Piyush Kumar Dey (Reg: 2201106145) requested Day Outing to City Center.",
     priority: "NORMAL",
     delivery_status: "acknowledged",
     location: "Main Gate Exit",

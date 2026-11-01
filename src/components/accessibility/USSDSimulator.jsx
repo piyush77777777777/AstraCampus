@@ -65,7 +65,7 @@ export default function USSDSimulator() {
     } else if (lower.includes('mess')) {
       reply = 'Annapurna Mess Menu: Dinner tonight is Roti, Veg Pulao, Kadai Chicken / Kadai Mushroom, Kheer.';
     } else if (lower.includes('attd')) {
-      reply = 'Piyush Mohapatra (CSE): Overall Attendance is 84.5%. Status: Eligible for semester exams.';
+      reply = 'Piyush Kumar Dey (CSE): Overall Attendance is 84.5%. Status: Eligible for semester exams.';
     } else {
       reply = 'AstraCampus SMS Service: Send "PASS OUT", "MESS MENU", or "ATTD" to 56767.';
     }

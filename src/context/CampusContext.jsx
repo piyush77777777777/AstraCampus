@@ -26,8 +26,8 @@ export function CampusProvider({ children }) {
   });
 
   const DEFAULT_USER = {
-    name: "Piyush Mohapatra",
-    email: "piyush.mohapatra@campus.edu",
+    name: "Piyush Kumar Dey",
+    email: "piyush.dey@campus.edu",
     role: "student",
     provider: "Google",
     signedInAt: "10:30 AM"
@@ -190,7 +190,7 @@ export function CampusProvider({ children }) {
       },
       {
         id: 'LR-2026-0052',
-        requesterName: 'Piyush Mohapatra',
+        requesterName: 'Piyush Kumar Dey',
         requesterRole: 'student',
         department: 'CSE',
         leaveType: 'Medical Leave',

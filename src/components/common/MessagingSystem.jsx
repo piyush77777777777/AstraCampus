@@ -10,7 +10,7 @@ const SEED_CONVERSATIONS = [
   {
     id: 'conv-001',
     participants: ['student', 'faculty'],
-    participantNames: { student: 'Piyush Mohapatra', faculty: 'Dr. Ramesh Chandra' },
+    participantNames: { student: 'Piyush Kumar Dey', faculty: 'Dr. Ramesh Chandra' },
     participantAvatars: {
       student: 'https://api.dicebear.com/7.x/avataaars/svg?seed=piyush',
       faculty: 'https://api.dicebear.com/7.x/avataaars/svg?seed=ramesh'
@@ -27,7 +27,7 @@ const SEED_CONVERSATIONS = [
   {
     id: 'conv-002',
     participants: ['student', 'admin'],
-    participantNames: { student: 'Piyush Mohapatra', admin: 'Dr. Subrata Panda (Dean)' },
+    participantNames: { student: 'Piyush Kumar Dey', admin: 'Dr. Subrata Panda (Dean)' },
     participantAvatars: {
       student: 'https://api.dicebear.com/7.x/avataaars/svg?seed=piyush',
       admin: 'https://api.dicebear.com/7.x/avataaars/svg?seed=dean'

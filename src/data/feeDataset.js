@@ -16,10 +16,10 @@ export const BRANCH_TAXONOMY = [
 export const INITIAL_STUDENT_FEE_PROFILE = {
   regNo: '2201106145',
   rollNo: 'CSE-22-045',
-  studentName: 'Piyush Mohapatra',
-  fatherName: 'Mr. Ramesh Mohapatra',
+  studentName: 'Piyush Kumar Dey',
+  fatherName: 'Mr. Ramesh Dey',
   contact: '+91 98765 43210',
-  email: 'piyush.mohapatra@cit.ac.in',
+  email: 'piyush.dey@cit.ac.in',
   branch: 'Computer Science & Engineering',
   course: 'B.Tech',
   currentSem: '6th Semester',

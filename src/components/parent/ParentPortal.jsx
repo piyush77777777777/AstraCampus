@@ -39,7 +39,7 @@ export default function ParentPortal({ initialTab = 'overview', setActiveTab: se
 
   // Ward Master Data
   const ward = {
-    name: 'Piyush Mohapatra',
+    name: 'Piyush Kumar Dey',
     regNo: '2201106145',
     rollNo: '22CSE045',
     course: 'Bachelor of Technology (B.Tech)',
@@ -620,7 +620,7 @@ export default function ParentPortal({ initialTab = 'overview', setActiveTab: se
             <div className="flex items-center gap-3">
               <button
                 onClick={() => {
-                  alert("Official Grade Transcript for Piyush Mohapatra (Reg: 2201106145) generated. Downloading verified PDF with digital institutional seal.");
+                  alert("Official Grade Transcript for Piyush Kumar Dey (Reg: 2201106145) generated. Downloading verified PDF with digital institutional seal.");
                 }}
                 className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 border border-white/20"
               >
@@ -699,7 +699,7 @@ export default function ParentPortal({ initialTab = 'overview', setActiveTab: se
               <div>
                 <h4 className="font-black text-slate-900 text-sm">Dean&apos;s Honor List & Merit Scholarship</h4>
                 <p className="text-xs text-amber-900 mt-0.5">
-                  Piyush Mohapatra has maintained a cumulative CGPA above 8.5 for 5 consecutive terms, qualifying for ₹15,000 Institutional Tuition Concession credited in Fee Ledger.
+                  Piyush Kumar Dey has maintained a cumulative CGPA above 8.5 for 5 consecutive terms, qualifying for ₹15,000 Institutional Tuition Concession credited in Fee Ledger.
                 </p>
               </div>
             </div>

@@ -26,7 +26,7 @@ const ROLE_META = {
 };
 
 const PORTAL_ACCOUNTS = [
-  { role: 'student',     name: 'Piyush Mohapatra',     email: 'piyush.mohapatra@cit.ac.in',    verifyCode: '2201106145' },
+  { role: 'student',     name: 'Piyush Kumar Dey',     email: 'piyush.dey@cit.ac.in',    verifyCode: '2201106145' },
   { role: 'admin',       name: 'Dr. Ramesh Chandra',   email: 'admin.dean@cit.ac.in',          verifyCode: 'CIT-DEAN-01' },
   { role: 'principal',   name: 'Prof. D. K. Mishra',   email: 'principal@cit.ac.in',           verifyCode: 'ADMIN-PRINCIPAL-01' },
   { role: 'club',        name: 'Aryan Sen',            email: 'club.robotics@cit.ac.in',       verifyCode: 'CIT-CLUB-ROBO' },
